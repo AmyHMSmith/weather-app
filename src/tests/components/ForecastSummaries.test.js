@@ -24,7 +24,7 @@ describe("ForecastSummaries", () => {
         }
       }
     ],
-    onForecastSelect: () => {}
+    onForecastSelect: jest.fn()
   };
 
   it("renders correctly", () => {

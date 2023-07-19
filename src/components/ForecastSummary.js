@@ -1,8 +1,7 @@
 import React from "react";
 import iconData from "../data/iconData.json";
 
-function ForecastSummary(props) {
-  const { date, description, icon, temperature, onSelect } = props;
+function ForecastSummary({ date, description, icon, temperature, onSelect }) {
   const formattedDate = new Date(date).toDateString();
 
   return (
